@@ -2,20 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "GilroyLight";
+  font-family: "myFonts1";
 }
 
 @font-face {
-  font-family: GilroyLight;
+  font-family: myFonts1;
   src: url(fonts/Gilroy-Light.otf);
 }
 
 @font-face {
-  font-family: GilroyExtraBold;
+  font-family: myFonts2;
   src: url(fonts/Gilroy-ExtraBold.otf);
 }
 .container {
-  max-width: 1280px;
+  width: 1280px;
   margin: 0 auto;
   background-color: #f9f9f9;
 }
@@ -25,11 +25,10 @@ a {
 /* Navbar */
 
 .navbar {
-  height: 70px;
+  height: 120px;
   background-color: #fff;
   display: flex;
-  justify-content: space-between;
-  padding: 10px;
+  padding: 40px 40px 10px 40px;
   align-items: center;
 }
 .logo {
@@ -65,5 +64,50 @@ a {
   color: #fff;
 }
 .nav-icon {
-  display: none;
+  visibility: hidden;
+}
+/* header */
+
+.flex {
+  display: flex;
+  gap: 150px;
+}
+.head {
+  padding: 40px 40px 10px 40px;
+}
+.head-right {
+  width: 45%;
+}
+.head-left {
+  width: 40%;
+}
+.head-left > h1 {
+  font-size: 3.2rem;
+  font-family: "myFonts2";
+  margin-top: 100px;
+  line-height: 60px;
+}
+.head-left > p {
+  color: #9e9da2;
+  font-size: 21px;
+  margin-top: 30px;
+}
+.head-btn {
+  margin-top: 73px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-black {
+  width: 45%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }

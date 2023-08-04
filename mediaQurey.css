@@ -1,3 +1,48 @@
-@media only screen and (max-width: ) {
-    
+@media only screen and (max-width: 425px) {
+  .container {
+    width: 100%;
+  }
+  .navbar {
+    gap: 29vw;
+  }
+  .nav-links,
+  .nav-btn {
+    display: none;
+  }
+  .nav-icon {
+    visibility: visible;
+  }
+
+  .flex {
+    flex-direction: column-reverse;
+    gap: 0px;
+  }
+
+  .head-right,
+  .head-left {
+    width: 100%;
+  }
+  .head-right > img {
+    width: 100%;
+  }
+  .logo {
+    width: 100%;
+  }
+  .head-left > h1 {
+    font-size: 2.3rem;
+    margin-top: 20px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .head-left > p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .btn-black {
+    width: 45%;
+    font-size: 16px;
+  }
+  .btn-black > img {
+    width: 25px;
+  }
 }
