@@ -144,3 +144,136 @@ a {
   border-radius: 3px;
   font-size: 18px;
 }
+/* Second Section */
+
+.second-sec-text {
+  width: 61%;
+  text-align: center;
+  margin: 0 auto;
+}
+.second-sec-text > h1 {
+  font-size: 3rem;
+  font-family: myFonts2;
+  font-weight: 800;
+}
+.second-sec-text > h1 > span {
+  font-size: 3rem;
+  font-family: myFonts2;
+  font-weight: 800;
+  color: #75bf7a;
+}
+.second-sec-text > p {
+  color: #9e9da2;
+  font-size: 1.8rem;
+  line-height: 40px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.second-section {
+  padding: 30px 60px;
+  height: 700px;
+  margin-top: 10em;
+}
+.second-sec-img {
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+
+.img-text-left {
+  flex: 0.7;
+  text-align: right;
+}
+
+.img-text-center {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile {
+  position: absolute;
+}
+.img-text-center:last-child img {
+  position: absolute;
+}
+.img-text-right {
+  flex: 0.7;
+  text-align: left;
+}
+
+.second-sec-img h3 {
+  font-family: myFonts2;
+  margin-top: 10px;
+}
+.second-sec-img p {
+  color: #9e9da2;
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+.nts-chld {
+  height: 60%;
+}
+.nts-chld > h1 {
+  font-family: myFonts2;
+  color: #75bf7a;
+  font-size: 2rem;
+}
+.img-h1 {
+  position: relative;
+  top: 18%;
+  right: 7.5%;
+}
+.img-h2 {
+  position: relative;
+  top: 18%;
+  left: 6.5%;
+}
+.dot {
+  position: absolute;
+  left: 47%;
+  bottom: -18%;
+}
+/* Third Section */
+.third-section {
+  padding: 30px 100px;
+}
+
+.third-section h1,
+span {
+  font-family: myFonts2;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+.third-section span {
+  color: #75bf7a;
+}
+.third-childOne {
+  display: flex;
+  width: 85%;
+  background-color: #fff;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  padding: 20px 0;
+}
+.flex-box {
+  display: flex;
+  width: 70%;
+  font-size: 1.6rem;
+  gap: 30px;
+  height: 90px;
+  margin-top: 65px;
+}
+.flex-box > div > h1 {
+  font-size: 5rem;
+  font-family: myFonts1;
+  color: #75bf7a;
+  line-height: 1;
+}
+.third-sec-para {
+  width: 70%;
+  font-size: 1rem;
+}

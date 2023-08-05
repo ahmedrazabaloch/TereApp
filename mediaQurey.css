@@ -54,15 +54,62 @@
     gap: 30px;
     padding: 30px 20px;
   }
-  .first-section>p{
+  .first-section > p {
     width: 100%;
     text-align: left;
   }
-  .first-section>input{
+  .first-section > input {
     width: 100%;
     line-height: 50px;
   }
-  .first-section>a{
+  .first-section > a {
     width: 100%;
+  }
+  .second-sec-text {
+    width: 80%;
+  }
+  .second-sec-text > h1 {
+    font-size: 2rem;
+  }
+  .second-sec-text > h1 > span {
+    font-size: 2rem;
+  }
+  .second-sec-text > p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+  .second-section {
+    margin-top: 0;
+    height: auto;
+  }
+  .second-sec-img {
+    flex-direction: column-reverse;
+  }
+  .m-top {
+    order: 1;
+    height: auto;
+    background-color: aqua;
+    margin: 80px;
+  }
+
+  .m-one,
+  .m-two,
+  .m-three,
+  .m-four {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .img-text-right > div > h1 {
+    width: 86%;
+    top: 50px;
+  }
+  .img-text-left > div > h1 {
+    width: 114%;
+    top: 53px;
+  }
+  .dot {
+    left: 0%;
+    position: relative;
+    margin-top: 15px;
   }
 }
