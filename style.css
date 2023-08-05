@@ -75,12 +75,6 @@ a {
 .head {
   padding: 40px 40px 10px 40px;
 }
-.head-right {
-  width: 45%;
-}
-.head-left {
-  width: 40%;
-}
 .head-left > h1 {
   font-size: 3.2rem;
   font-family: "myFonts2";
@@ -100,7 +94,7 @@ a {
 }
 .btn-black {
   width: 45%;
-  height: 50px;
+  height: 60px;
   border-radius: 5px;
   background-color: #000;
   color: #fff;
@@ -110,4 +104,43 @@ a {
   align-items: center;
   justify-content: center;
   gap: 15px;
+}
+
+/* sectionOne */
+
+.first-section {
+  background-color: #75bf7a;
+  margin: 50px auto;
+  height: 120px;
+  display: flex;
+  padding: 30px 60px;
+  width: 93.7%;
+  align-items: center;
+  border-radius: 10px;
+  gap: 50px;
+}
+.first-section > p {
+  color: #fff;
+  flex: 0.7;
+  font-size: 1.3em;
+}
+.first-section > input {
+  flex: 1.6;
+  height: 2.5em;
+  border: none;
+  border-radius: 3px;
+  padding: 0px 20px;
+  font-size: larger;
+  outline: none;
+}
+.first-section > a {
+  flex: 0.7;
+  height: 2.8em;
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  padding: 16px 20px;
+  border-radius: 3px;
+  font-size: 18px;
 }
