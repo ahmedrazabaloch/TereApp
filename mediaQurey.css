@@ -112,7 +112,29 @@
     position: relative;
     margin-top: 15px;
   }
+  .third-section {
+    padding: 0 40px;
+  }
 
-
-  
+  .third-childOne,
+  .third-childTwo,
+  .third-childThree {
+    width: 100%;
+    flex-direction: column;
+  }
+.third-section img{
+  width: 100%;
+}
+  .flex-box {
+    margin-top: 10px;
+    width: 100%;
+    padding: 0 20px;
+    gap: 5px;
+  }
+  .flex-box h3 {
+    font-size: 1.5rem;
+  }
+  .third-sec-para{
+   visibility: hidden;
+  }
 }
