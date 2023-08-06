@@ -258,7 +258,28 @@ span {
   border-radius: 5px;
   justify-content: space-evenly;
   padding: 20px 0;
+  margin-top: 50px;
 }
+.third-childTwo {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 85%;
+  background-color: #fff;
+  border-radius: 5px;
+  justify-content: space-between;
+  padding: 20px 50px;
+  margin-top: 50px;
+}
+.third-childThree {
+  display: flex;
+  width: 85%;
+  background-color: #fff;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  padding: 20px 40px;
+  margin-top: 50px;
+}
+
 .flex-box {
   display: flex;
   width: 70%;
@@ -273,7 +294,14 @@ span {
   color: #75bf7a;
   line-height: 1;
 }
+.third-childTwo h3 {
+  margin-top: 15px;
+}
 .third-sec-para {
   width: 70%;
   font-size: 1rem;
+}
+.third-sec-two {
+  display: flex;
+  justify-content: end;
 }
