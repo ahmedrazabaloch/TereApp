@@ -300,8 +300,62 @@ span {
 .third-sec-para {
   width: 70%;
   font-size: 1rem;
+  color: #9e9da2;
 }
 .third-sec-two {
   display: flex;
   justify-content: end;
+}
+/* Footer Section*/
+footer {
+  margin-top: 150px;
+  background-color: #fff;
+  height: 300px;
+}
+.footer-container {
+  display: flex;
+  padding: 50px 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-container h3 {
+  font-family: myFonts2;
+}
+
+.footer-container li {
+  list-style: none;
+  margin: 10px 0;
+  color: #9e9da2;
+}
+.footer-btn {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-btn-black {
+  width: 49%;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.hr {
+  height: 1px;
+  background-color: #9e9da2;
+  width: 90%;
+  margin: 0 auto;
+}
+footer > h3 {
+  margin-top: 40px;
+  text-align: center;
+}
+footer > h3 > span {
+  color: #75bf7a;
+  font-size: inherit;
 }
