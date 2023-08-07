@@ -1,5 +1,4 @@
-# TereApp
-# CSS-Assignment-06
+# TereApp || CSS-Assignment-06
 
 # https://ahmedrazabaloch.netlify.app/
 
